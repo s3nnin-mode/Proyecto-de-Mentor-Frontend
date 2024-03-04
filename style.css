@@ -1,7 +1,6 @@
 body {
     font-size: 15px;
-    max-width: 1440px;
-    max-height: 800px;
+    width: 100%;
     font-family: Outfit;
     background-color: hsl(212, 45%, 89%);
     padding: 0;
@@ -47,10 +46,4 @@ p {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-@media (max-width: 600px) {
-    body {
-        width: 375px;
-    }
 }
